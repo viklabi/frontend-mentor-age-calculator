@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Frontend Mentor | Age calculator app</title>
+	</head>
+	<body>
+		<main>
+			<form>
+				<label class="day-label" for="day"
+					>Day <input id="day" inputmode="numeric" placeholder="DD" /><span
+						class="day-error error"></span
+				></label>
+				<label class="month-label" for="month"
+					>Month <input id="month" inputmode="numeric" placeholder="MM" /><span
+						class="month-error error"></span
+				></label>
+				<label class="year-label" for="year"
+					>Year <input id="year" inputmode="numeric" placeholder="YYY" /><span
+						class="year-error error"></span
+				></label>
+				<button><img src="assets/images/icon-arrow.svg" alt="" /></button>
+			</form>
+			<div class="result">
+				<p><span class="year-age age">--</span>years</p>
+				<p><span class="month-age age">--</span>months</p>
+				<p><span class="day-age age">--</span>days</p>
+			</div>
+		</main>
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Victor Owolabi</a>.
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
